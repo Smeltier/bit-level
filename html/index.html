@@ -7,61 +7,57 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../assets/icons/website-logo.png">
 </head>
+
 <body>
+
     <header>
-        <hr>
-        <div style="display: flex; align-items: center; justify-content: center; gap: 20px;">
-
+        <div class="navbar">
             <img src="../assets/icons/website-logo.png" alt="BITLEVEL Logo" height="50px">
-
-            <a href="index.html">BITLEVEL</a>
-            <a href="community.html">COMUNIDADE</a>
-            <a href="games.html">JOGOS</a>
-
-            <input type="text" placeholder="Buscar.." style="border: 10px;">
-
+            <nav class="nav-links">
+                <a href="index.html">BITLEVEL</a>
+                <a href="community.html">COMUNIDADE</a>
+                <a href="games.html">JOGOS</a>
+            </nav>
+            <input type="text" placeholder="Buscar.." class="search-input">
             <img src="../assets/images/unlogged-user.png" alt="User image" height="40px">
-
         </div>
     </header>
+
     <main>
-        <hr>
 
-        <center>><img src="../assets/images/Metro 2033.png" alt="Metro 2033 wallpaper" height="500px"></center>
+        <section class="banner">
+            <img src="../assets/images/Metro 2033.png" alt="Metro 2033 Wallpaper" height="500px">
+        </section>
 
-        <hr>
-
-        <center>
+        <section class="community-info" style="text-align: center;">
             <h2>CONHEÇA A NOSSA COMUNIDADE!</h2>
             <h4>Vários usuários reunidos em um só lugar!</h4>
-        </center>
+        </section>
 
-        <hr>
+        <section class="top-games">
+            <div class="top-games-header">
+                <h2>TOP 3 JOGOS DA SEMANA:</h2>
+                <a href="games.html"><button>VEJA MAIS</button></a>
+            </div>
+        </section>
 
-        <div style="display: flex; justify-content: center; gap: 50px; align-items: center;">
-            <h2>TOP 3 JOGOS DA SEMANA:</h2>
-            <a href="games.html"><button>VEJA MAIS</button></a>
-        </div>
-
-        <hr>
-
-        <center>
-            <div style="display: flex; gap: 10px; align-items: center; justify-content: center; width: 100vh;">
-                <div style="flex: 2;">
+        <section class="games-showcase">
+            <div class="game-grid">
+                <div class="game-main">
                     <img src="../assets/images/GTA VI.png" alt="GTA VI Logo" height="500px">
                 </div>
-                <div style="flex-direction: column;">
+                <div class="game-secondary">
                     <img src="../assets/images/Castle Crashes.avif" alt="Castle Crashes Logo" height="250px">
                     <img src="../assets/images/Outer Wilds.jpeg" alt="Outer Wilds Logo" height="250px">
                 </div>
             </div>
-        </center>
-
-        <hr>
+        </section>
 
     </main>
+
     <footer>
 
     </footer>
+
 </body>
 </html>

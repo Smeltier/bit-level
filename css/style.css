@@ -1,0 +1,53 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-links a {
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-input {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.top-games-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.games-showcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-grid {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 100vh;
+}
+
+.game-main {
+  flex: 2;
+}
+
+.game-secondary {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
