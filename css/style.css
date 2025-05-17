@@ -10,6 +10,16 @@
   text-decoration: none;
 }
 
+.game-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-main-page {
+  text-align: center;
+}
+
 .banner {
     display: flex;
     align-items: center;
@@ -39,9 +49,9 @@
 }
 
 .games-showcase {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .game-grid {
