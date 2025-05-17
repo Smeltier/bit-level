@@ -16,9 +16,19 @@
     justify-content: center;
 }
 
+.plataforms {
+  display: flex;
+}
+
 .search-input {
   border: 1px solid #ccc;
   padding: 5px;
+}
+
+.top-page-games {
+  justify-content: center;
+  align-items: center;
+  font-size: 40px; 
 }
 
 .top-games-header {
