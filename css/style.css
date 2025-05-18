@@ -26,6 +26,11 @@
     justify-content: center;
 }
 
+#barra-de-pesquisa {
+  width: 420px;
+  height: 20px;
+}
+
 .plataforms {
   display: flex;
 }
@@ -33,6 +38,12 @@
 .search-input {
   border: 1px solid #ccc;
   padding: 5px;
+}
+
+.top-page-comunidade {
+  justify-content: center;
+  align-items: center;
+  font-size: 40px; 
 }
 
 .top-page-games {
