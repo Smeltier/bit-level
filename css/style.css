@@ -88,15 +88,17 @@ body {
 }
 
 .search-bar {
-  width: 700px;
+  width: 750px;
   height: 20px;
+  border-radius: 10px;
 }
 
 .pesquisar{
   margin: 50px;
-  background-color: blue;
+  background-color: #1D395E;
   height: 80px;
-  width: 800px;
+  width: 820px;
+  border-radius: 1.25rem;
 }
 
 .plataforms {
@@ -108,18 +110,12 @@ body {
   padding: 5px;
 }
 
-.top-page-community {
+.top-page{
   display: inline-flex;
   flex-direction: column;
   align-items: center;
   font-size: 40px;
   gap: 10px;
-}
-
-.top-page-games {
-  justify-content: center;
-  align-items: center;
-  font-size: 40px; 
 }
 
 .top-games {
@@ -238,7 +234,7 @@ a {
 }
 
 .post{
-  background-color: aqua; 
+  background-color: #10325E; 
   height: 300px; 
   width: 300px;
   padding: 15px;
@@ -249,10 +245,23 @@ a {
   text-align: center;
 }
 
-#teste{
-  background-color: whitesmoke;
-  width: 20px;
-  height: 20px;
+.post-info{
+  background-color: #10325E;
+  width: 18.75rem;
+  height: 2.5rem;
+  display: flex;
+}
+
+.post-info-usuario{
+  color: white;
+  align-self: center;
+}
+
+.post-info-comunidade{
+  color: white;
+  align-self: center;
+  position: relative;
+  left: 3.5rem;
 }
 
 .community-info {
