@@ -112,17 +112,15 @@ body {
 }
 
 .search-bar {
-  width: 90%;
-  max-width: 45rem;
-  height: 2rem;
+  width: 700px;
+  height: 20px;
 }
 
-.pesquisar {
-  margin: 3rem auto;
+.pesquisar{
+  margin: 50px;
   background-color: blue;
-  height: 5rem;
-  width: 90%;
-  max-width: 50rem;
+  height: 80px;
+  width: 800px;
 }
 
 .plataforms {
@@ -134,7 +132,7 @@ body {
   padding: 0.3125rem;
 }
 
-.top-page-community {
+.top-page{
   display: inline-flex;
   flex-direction: column;
   align-items: center;
@@ -145,7 +143,7 @@ body {
 .top-page-games {
   justify-content: center;
   align-items: center;
-  font-size: 2.5rem;
+  font-size: 40px; 
 }
 
 .top-games {
@@ -263,11 +261,11 @@ a {
   flex-wrap: wrap;
 }
 
-.post {
+.post{
   background-color: aqua; 
-  height: 18.75rem;
-  width: 18.75rem;
-  padding: 1rem;
+  height: 300px; 
+  width: 300px;
+  padding: 15px;
   border-radius: 10%;
 }
 
@@ -275,10 +273,10 @@ a {
   text-align: center;
 }
 
-#teste {
+#teste{
   background-color: whitesmoke;
-  width: 1.25rem;
-  height: 1.25rem;
+  width: 20px;
+  height: 20px;
 }
 
 .community-info {
