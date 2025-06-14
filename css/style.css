@@ -106,21 +106,24 @@ body {
 
 .banner img {
   max-width: 100%;
-  height: 65vh;   
+  height: 35rem;   
   border-radius: 1rem;
   object-fit: cover;  
 }
 
 .search-bar {
-  width: 700px;
-  height: 20px;
+  width: 46.875rem;
+  height: 1.25rem;
+  border-radius: 0.625rem;
 }
 
 .pesquisar{
-  margin: 50px;
-  background-color: blue;
-  height: 80px;
-  width: 800px;
+  margin: 3.125rem;
+  background-color: #10325E;
+  height: 5rem;
+  width: 52.25rem;
+  border-radius: 1.25rem;
+  padding-top: 0.625rem;
 }
 
 .plataforms {
@@ -242,6 +245,7 @@ body {
   z-index: 10;
 }
 
+
 #car {
   height: 2rem;
   position: relative;
@@ -263,21 +267,34 @@ a {
 }
 
 .post{
-  background-color: aqua; 
-  height: 300px; 
-  width: 300px;
-  padding: 15px;
-  border-radius: 10%;
+  background-color: #10325E; 
+  height: 18.75rem; 
+  width: 18.75rem;
+  padding: 0.928rem;
+  border-radius: 0.625rem;
 }
 
 .top {
   text-align: center;
 }
 
-#teste{
-  background-color: whitesmoke;
-  width: 20px;
-  height: 20px;
+.post-info{
+  background-color: #10325E;
+  width: 18.75rem;
+  height: 2.5rem;
+  display: flex;
+}
+
+.post-info-usuario{
+  color: white;
+  align-self: center;
+}
+
+.post-info-comunidade{
+  color: white;
+  align-self: center;
+  position: relative;
+  left: 2rem;
 }
 
 .community-info {
