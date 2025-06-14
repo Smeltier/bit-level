@@ -27,14 +27,21 @@
 }
 
 .banner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .search-bar {
-  width: 420px;
+  width: 700px;
   height: 20px;
+}
+
+.pesquisar{
+  margin: 50px;
+  background-color: blue;
+  height: 80px;
+  width: 800px;
 }
 
 .plataforms {
@@ -47,9 +54,11 @@
 }
 
 .top-page-community {
-  justify-content: center;
+  display: inline-flex;
+  flex-direction: column;
   align-items: center;
-  font-size: 40px; 
+  font-size: 40px;
+  gap: 10px;
 }
 
 .top-page-games {
@@ -72,8 +81,8 @@
 }
 
 .game-grid {
-  display: flex;
-  gap: 10px;
+  display: inline-flex;
+  gap: 15px;
   align-items: center;
   justify-content: center;
   width: 100vh;
@@ -84,7 +93,7 @@
 }
 
 .game-secondary {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   gap: 10px;
 }
@@ -111,4 +120,30 @@
 a {
   text-decoration: none;
   color: black;
+}
+
+.posts{
+  display: flex;
+  gap: 40px;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.post{
+  background-color: aqua; 
+  height: 300px; 
+  width: 300px;
+  padding: 15px;
+  border-radius: 10%;
+}
+
+.top{
+  text-align: center;
+}
+
+#teste{
+  background-color: whitesmoke;
+  width: 20px;
+  height: 20px;
 }
