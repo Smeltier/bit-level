@@ -358,23 +358,23 @@ footer {
 }
 
 .container-shopping-cart {
-  display: inline;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 9rem;
 }
 
 .container-shopping-cart h2 {
   text-align: center;
-  margin-top: 15rem;
+  margin-top: 5%;
 }
 
 .game-buy {
   background-color: #10325E;
   padding: 1.25rem;
   border-radius: 1rem;
-  width: 60%;
-  max-width: 30%;
+  width: 37%;
+  max-width: 100%;
   margin: 2rem auto;
   text-align: center;
 
@@ -383,7 +383,7 @@ footer {
   justify-content: center;
   align-items: center;  
 
-  gap: 2.5rem;
+  gap: 1rem;
 
   min-height: 50px;
 }
@@ -394,16 +394,19 @@ footer {
 }
 
 .game-buy h4 {
+  font-size: 1.2rem;
   background-color: #00FF73;
-  width: 90%;
-  border-radius: 1rem;
+  width: 100%;
+  height: auto;
+  border-radius: 0.2rem;
   color: #1D395E;
 }
 
 .game-buy h3 {
   background-color: white;
-  width: 90%;
-  border-radius: 1rem;
+  width: 100%;
+  height: auto;
+  border-radius: 0.2rem;
   color: #10325E;
 }
 
