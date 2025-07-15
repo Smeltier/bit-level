@@ -1,0 +1,67 @@
+.slider{
+    margin: 0 auto; /*parece que centraliza a div*/
+    margin-top: 3rem;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    overflow: hidden; /*faz com que a barra de rolagem lateral some e nao de pra ir para o lado*/
+}
+
+.slider-content{
+    width: 400%;
+    height: auto;
+    display: flex;
+}
+
+.slider-content input{
+    display: none; /*nao eh mostrado na tela*/ 
+}
+
+.slide-box{
+    width: 25%;
+    height: auto;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.slide-box img{
+    border-radius: 1rem;
+    width: 80%;
+}
+
+.nav-manual, .nav-auto{ /*faz com que duas classes tenham o mesmo estilo*/
+    position: absolute;
+    width: 100%;
+    margin-top: 45.2%;
+    display: flex;
+    justify-content: center;
+    gap: 0.3rem;
+}
+
+.manual-slide, .nav-auto div{ /*mesma coisa aqui, so que com todas as divs de nav-auto*/
+    border: 0.063rem solid #00FF73;
+    padding: 0.625rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.manual-slide:hover{
+    background-color: #00FF73;
+}
+
+#radio1:checked ~ .nav-auto .auto-slide1, #radio2:checked ~ .nav-auto .auto-slide2, #radio3:checked ~ .nav-auto .auto-slide3{
+    background-color: #00FF73;
+}
+
+#radio1:checked ~ .primeiro{
+    margin-left: 0%;
+}
+
+#radio2:checked ~ .primeiro{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .primeiro{
+    margin-left: -50%;
+}
