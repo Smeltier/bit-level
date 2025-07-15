@@ -9,6 +9,7 @@ document.getElementById("verifica").addEventListener("click", function () {
     if (email === emailCorreto && senha === senhaCorreta) {
         window.location.href = "../index.html";
     } else {
+        alert("Email e senha invalidos.")
         window.location.href = "login.html";
     }
 })
