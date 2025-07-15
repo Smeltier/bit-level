@@ -3,8 +3,8 @@ document.getElementById("verifica").addEventListener("click", function () {
     const email = document.getElementById("eemail").value;
     const senha = document.getElementById("paasword").value;
 
-    const emailCorreto = "teste@site.com"; // pelo visto precisa ser comparado com uma variavel
-    const senhaCorreta = "123456";
+    const emailCorreto = "chatGPT@gmail.com"; // pelo visto precisa ser comparado com uma variavel
+    const senhaCorreta = "gpt123";
 
     if (email === emailCorreto && senha === senhaCorreta) {
         window.location.href = "../index.html";
