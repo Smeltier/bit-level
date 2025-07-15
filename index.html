@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BITLEVEL</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slider.css">
     <link rel="shortcut icon" href="assets/icons/website-logo.png">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
@@ -38,8 +39,38 @@
             </a>
         </section>
 
-        <section class="banner">
-            <a href="html/metro.html"><img src="assets/images/Metro 2033.png" alt="Metro 2033 Wallpaper" height="500px"></a>
+        <section class="slider">
+            <div class="slider-content">
+
+                <input type="radio" name="slide-radio" id="radio1">
+                <input type="radio" name="slide-radio" id="radio2">
+                <input type="radio" name="slide-radio" id="radio3">
+
+                <div class="slide-box primeiro">
+                    <a href="html/castlecrashes.html"><img src="assets/images/Castle Crashes.png" alt="slide1"></a>
+                </div>
+
+                <div class="slide-box">
+                    <a href="html/gta.html"><img src="assets/images/GTA VI.png" alt="slide2"></a>
+                </div>
+
+                <div class="slide-box">
+                    <a href="html/outerwilds.html"><img src="assets/images/Outer Wilds.jpeg" alt="slide3"></a>
+                </div>
+
+                <div class="nav-auto">
+                    <div class="auto-slide1"></div>
+                    <div class="auto-slide2"></div>
+                    <div class="auto-slide3"></div>
+                </div>
+
+                <div class="nav-manual">
+                    <label for="radio1" class="manual-slide" onclick="reset()"></label>
+                    <label for="radio2" class="manual-slide" onclick="reset()"></label>
+                    <label for="radio3" class="manual-slide" onclick="reset()"></label>
+                </div>
+    
+            </div>
         </section>
 
         <section class="community-info" style="text-align: center;">
@@ -75,5 +106,6 @@
         </section>
     </footer>
 
+    <script src="js/main.js"></script>
 </body>
 </html>
